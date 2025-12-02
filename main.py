@@ -10,7 +10,7 @@ def InscriptANameOnAFile():
     name, file_name  = GetNameAndFile()
     with open("inscribed.txt", "r") as file:
         old_content = file.read()
-    #print(old_content)
+    
 
     name_adrested = "\nHi " + name
     new_content = name_adrested + old_content
